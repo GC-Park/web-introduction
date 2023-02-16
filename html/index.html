@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patrick</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h2>자기소개</h2>
+      <ul>
+        <li>이름 : 박근철</li>
+        <li>사는 곳 : 남양주</li>
+        <li>
+          안녕하세요 😊 저는 Patrick입니다. 스노우보드, 축구, 진돌이, 새로운 곳
+          여행, 공포영화를 좋아합니다. 오늘도 화이팅입니다 ! 🍦
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div>
+      <h2>인생 영화 BEST5</h2>
+      <table>
+        <tr>
+          <th scope="col">순위</th>
+          <th scope="col">제목</th>
+          <th scope="col">포스터</th>
+          <th scope="col">줄거리</th>
+          <th scope="col">바로가기</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>라라랜드</td>
+          <td><img src="../images/lalaland.jpeg" alt="lalaland" /></td>
+          <td>
+            LA라는 도시를 바탕으로 재즈 뮤지션을 꿈꾸는 세바스찬 그리고 배우를
+            꿈꾸는 미아가 우연히 만나며 사랑에 빠지는 이야기
+          </td>
+          <td>
+            <a
+              href="https://movie.naver.com/movie/bi/mi/basic.naver?code=134963"
+              >클릭</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>월플라워</td>
+          <td><img src="../images/Wallflower.jpeg" alt="Wallflower" /></td>
+          <td>
+            말 못할 트라우마를 가진 찰리가 타인의 시선을 신경 쓰지 않고 삶을
+            즐기는 샘과 패트릭 남매를 만나 인생의 전환점을 맞이하는 이야기
+          </td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=83213"
+              >클릭</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>포레스트 검프</td>
+          <td>
+            <img src="../images/gump.jpeg" alt="gump" />
+          </td>
+          <td>
+            발달장애를 앓고 있는 포레스트 검프가 삶의 행복을 찾아가는 이야기
+          </td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=17159"
+              >클릭</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>세 얼간이</td>
+          <td>
+            <img src="../images/3idiots.jpeg" alt="3idiots" />
+          </td>
+          <td>엉뚱한 천재 친구 3명이 뭉쳐 세상에 맞서는 이야기</td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=73372"
+              >클릭</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>트루먼쇼</td>
+          <td>
+            <img src="../images/truman.jpeg" alt="truman" />
+          </td>
+          <td>
+            30년간 텔레비전 쇼 프로그램에 노출되어 살아가던 한 인간의 정체성을
+            찾는 이야기
+          </td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=19099"
+              >클릭</a
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <hr />
+    <div>
+      <h2>방명록</h2>
+      <span>이름 : </span>
+      <input type="text" id="name" />
+      <p>본인 취향 영화</p>
+      <input type="checkbox" name="movie" value="라라랜드" />라라랜드
+      <input type="checkbox" name="movie" value="월플라워" />월플라워
+      <input type="checkbox" name="movie" value="포레스트 검프" />포레스트 검프
+      <input type="checkbox" name="movie" value="세 얼간이" />세 얼간이
+      <input type="checkbox" name="movie" value="트루먼쇼" />트루먼쇼<br />
+      <button type="button" id="register" onclick="buttonClick()">등록</button>
+      <button type="reset" onclick="resetAll()">취소</button>
+    </div>
+  </body>
+</html>
